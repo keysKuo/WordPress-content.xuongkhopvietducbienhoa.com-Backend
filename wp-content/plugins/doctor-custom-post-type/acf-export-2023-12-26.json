@@ -1,0 +1,93 @@
+[
+    {
+        "key": "group_6586354c57392",
+        "title": "Doctor Custom Fields",
+        "fields": [
+            {
+                "key": "field_658635b9c9b18",
+                "label": "Bio",
+                "name": "bio",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "default_value": "",
+                "maxlength": "",
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_6586354cc9b16",
+                "label": "Phone",
+                "name": "phone",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_6586356bc9b17",
+                "label": "Skype",
+                "name": "skype",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "doctor"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0,
+        "show_in_graphql": 1,
+        "graphql_field_name": "doctorMetadata",
+        "map_graphql_types_from_location_rules": 0,
+        "graphql_types": ""
+    }
+]
