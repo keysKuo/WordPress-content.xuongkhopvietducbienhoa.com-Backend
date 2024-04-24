@@ -90,7 +90,7 @@ define( 'WP_AUTO_UPDATE_CORE', false );
 /**
  * Enable Graphql Debugger
  */
-define( 'GRAPHQL_DEBUG', false );
+define( 'GRAPHQL_DEBUG', true );
 
 /**
  *  GRAPHQL_JWT_AUTH_SECRET_KEY
